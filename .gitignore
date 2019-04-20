@@ -1,6 +1,3 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
 *.slo
 *.lo
@@ -18,7 +15,6 @@
 
 # Fortran module files
 *.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
@@ -28,5 +24,25 @@
 
 # Executables
 *.exe
+
+# From Hyungmin
+!build/tools/Shapely/PyInstaller/libgeos.lib
+!build/tools/Shapely/PyInstaller/geos_c.dll
+!build/tools/DistMesh/DistMesh.exe
+!build/tools/MeshConv/MeshConv.exe
+build/outputs
+make/outputs
+
+build/Debug
+build/Release
+build/x64
+build/outputs
+build/My Advisor Results - METIS
 *.out
 *.app
+*.u2d
+*.11
+*.101
+*.log
+.vs
+fort.*
